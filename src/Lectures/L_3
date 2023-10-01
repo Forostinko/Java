@@ -1,0 +1,118 @@
+// ============   BOOLEAN   =====  IF ELSE   ======   FOR   =====================
+
+
+// boolean  a = true, boolean b = false
+
+//public class Lecture3 {
+//    public static void main(String[] args) {
+//
+//        int personAge = 30;
+//        int age = 50;
+//
+//        System.out.println("You old " + age + " Years?");
+//
+//        if (personAge > age) {
+//            System.out.println("Yes");
+//        } else {
+//            System.out.println("No");
+//        }
+//
+//    }
+//}
+
+// &&  - and
+// T | T  T
+// F | F  T
+// F | T  F
+// F | F  F
+
+// =================  if else  ===============================
+
+//public class Lecture3 {
+//    public static void main(String[] args) {
+//
+//        int personAge = 5;
+//        int maxAge = 50;
+//        int minAge = 10;
+//
+//        System.out.println("Are you more " + minAge + " and less" + maxAge + " Years?");
+//
+//        if (personAge > minAge && personAge < maxAge) {
+//            System.out.println("Yes");
+//        } else {
+//            System.out.println("No");
+//        }
+//
+//    }
+//}
+
+// ||  - or
+// T | T  T
+// T | F  T
+// T | T  F
+// F | F  F
+
+//public class Lecture3 {
+//    public static void main(String[] args) {
+//
+//        int personAge = 10;
+//        int maxAge = 50;
+//        int minAge = 10;
+//
+//        System.out.println("Are you " + minAge + " and lees, and more " + maxAge + " Years?");
+//
+//        if (personAge <= minAge || personAge > maxAge) {
+//            System.out.println("Yes");
+//        } else {
+//            System.out.println("No");
+//        }
+//
+//    }
+//}
+
+//public class Lecture3 {
+//    public static void main(String[] args) {
+//
+//        int a = 40;
+//        int b = 2;
+//
+//        if (a / b != 10) {
+//            System.out.println("a / b == 10");
+//        } else {
+//            System.out.println("a / b != 10");
+//        }
+//    }
+//}
+
+
+//public class Lecture3 {
+//    public static void main(String[] args) {
+//
+//        int personAge = 50;
+//        int minAge = 10;
+//        int maxAge = 50;
+//
+//        if (personAge > minAge) {
+//            if (personAge < maxAge) {
+//                System.out.println("Are you more " + minAge + " and less " + maxAge);
+//            } else {
+//                System.out.println("Are you more " + maxAge);
+//            }
+//        } else {
+//            System.out.println("Are you less " + minAge);
+//        }
+//    }
+//}
+
+// =================  for (loop) ===============================
+
+//public class Lecture3 {
+//    public static void main(String[] args) {
+//
+//        for (int i = 0; i < 5; i = i + 1) {
+//            i = 100;
+//            System.out.println(i);
+//        }
+//        System.out.println("End!");
+//    }
+//}
